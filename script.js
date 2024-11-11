@@ -20,3 +20,4 @@ function setMapLocation(lat, lng) {
         title: 'Lokasi Baru'
     });
 }
+getElementById
