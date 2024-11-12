@@ -38,6 +38,11 @@ iframe{
     border: 5px solid blue;
     width: 500px;
     height: 500px;
-    transition: 0.3 ease;
+    transition: 0.3 ease-in-out;
+}
+
+iframe:hover{
+    transform: scale(1.1);
+
 }
 
