@@ -45,7 +45,6 @@ iframe{
 iframe:hover{
     transform: scale(1.1);
     opacity: 1;
-    color: deeppink;
 
 }
 
