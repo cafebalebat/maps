@@ -49,21 +49,16 @@ iframe:hover{
 }
 
 /*making responsive*/
-@media (max-width:720px){
+@media(max-width:964px){
     .box{
         margin: auto;
-        width: 80%;
+        width: 90%;
+
     }
 }
 
-@media (max-width:720px){
-    .box{
-        grid-template-columns: 1fr;
-        gap: 1rem;
-        margin-top: 20rem !important;
-    }
-    .map iframe{
-        height: 400px;
+@media(max-width:700px){
+    
 
-    }
+
 }
