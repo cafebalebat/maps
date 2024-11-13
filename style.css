@@ -39,7 +39,6 @@ nav ul :hover{
     box-sizing: border-box;
     border-radius: 5px;
     width: 20px;
-    transition: background 1s, transform 1s;
     text-align: center;
 }
 
