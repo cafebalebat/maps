@@ -36,10 +36,19 @@ header {
 /* Gaya untuk logo */
 .logo a {
     color: rgb(0, 0, 0);
-    font-size: 15px;
+    font-size: 17px;
     text-decoration: none;
 }
+.logo a:hover{
+    color: #000000;
+    background: gray;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    box-sizing: border-box;
+    transition: none;
 
+}
 /* Gaya untuk list item di navbar */
 .nav-links {
     list-style-type: none;
@@ -60,7 +69,12 @@ header {
 
 /* Efek hover pada link */
 .nav-links a:hover {
-    color: #494848;
+    color: #000000;
+    background: gray;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    box-sizing: border-box;
 }
 
 section{
