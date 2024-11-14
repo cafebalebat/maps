@@ -92,9 +92,9 @@ h1{
     font-size: 4em;
 }
 
-p{
-    font-size: 1.2em;
-}
+/* p{
+    display:none;
+} */
 
 iframe{
     border-radius: 2em;
@@ -145,10 +145,13 @@ iframe:hover{
     }
 
     section{
-        flex-direction: column;
+    flex-direction: column;
     }
 
     .box h1 {
         font-size: 2em;
     } 
+    .box p{
+        display:flex;
+    }
 }
