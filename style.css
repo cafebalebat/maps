@@ -112,7 +112,7 @@ iframe:hover{
 }
 
 /* Responsif: Jika layar kecil, navbar akan menumpuk secara vertikal */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 720px) {
     .navbar {
         flex-direction: column;
         text-align: center;
